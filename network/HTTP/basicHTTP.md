@@ -41,7 +41,7 @@
 * 一个endpoint就代表HTTP服务里面的一个功能。
 
 ## 什么是endpoint方法
-  * endpoint的请求方法=组成endpoint的请求方法。
+  * endpoint的请求方法是指组成endpoint的请求方法。 eg：app.get(URL,(req,res) => {});
 
 ## HTTP服务通过什么区分不同的功能
   * HTTP服务是通过请求行中的请求方法和URL来区别不同功能。
