@@ -3,7 +3,7 @@
 
 * HTTP：
   * HTTP请求(requests)：
-    * 请求行：
+    * 请求行：    
       * 请求方法：有GET、PUT、POST、DELETE、PATCH等等。用于指定请求的目的。详细内容见下方的介绍。
         * GET: 获取指定的资源。
         * PUT: 创建或者修改指定资源。
@@ -11,8 +11,7 @@
           * 比如创建用户，连续调用就会创建多个用户，而put方法不会只会创建一个用户。
         * DELETE: 删除指定资源。
         * PATCH: 更新局部资源。
-      * 请求URL：指定请求的资源。 
-    * 例如 GET / HTTP/1.1这个请求头
+      * 请求URL：指定请求的资源。  
         
     * 请求头：用于描述HTTP请求的附加信息。 例如：Host: developer.mozilla.org或者Accept-Language: fr
     * 请求体：请求的详细内容。
