@@ -1,6 +1,6 @@
 # 泛型（generic）
   ## 泛型：是指不确定的类型。
-  csharp``` 
+  ``` 
     void add(int num) 
     void add(double)
   ```
