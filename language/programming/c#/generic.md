@@ -21,3 +21,4 @@
      ```
       system.Nullable<int> nullableint;
      ```
+   * 有时候我们需要值类型为空。可以使用System.Nullable<T>类型来使值类型为空。
