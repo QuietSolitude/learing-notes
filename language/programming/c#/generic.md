@@ -18,7 +18,6 @@
      ``` interface Istudent<T>:Iteacher<T> ```
 
   ## 可空类型（nullable type）
-    * System.Nullable<T>类型提供了使用值类型为空的一种方式。
      ```
       system.Nullable<int> nullableint;
      ```
