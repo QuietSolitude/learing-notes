@@ -19,6 +19,15 @@
 
   ## 可空类型（nullable type）
      ```
-      system.Nullable<int> nullableint;
+      System.Nullable<int> nullableInt; 
+      nullableInt = null;  
      ```
    * 有时候我们需要值类型为空。可以使用System.Nullable<T>类型来使值类型为空。
+     * 可以是使用类型+？来替代上面的System.Nullable<T>
+     ```int? nullableInt```
+   ## 运算符和可空类型
+     * 对了可空的基本类型与基本类型进行运算符处理都是没有区别的，但是要注意的是如果对可空基本类型与基本类型进行运算，就要强制把可空基本类型转换成基本类型。
+     ```
+       int? number = 5;
+       int numberInt = (int)number * 8;
+     ``` 
