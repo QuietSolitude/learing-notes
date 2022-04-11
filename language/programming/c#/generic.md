@@ -18,12 +18,13 @@
      ``` interface Istudent<T>:Iteacher<T> ```
 
   ## 可空类型（nullable type）
-     ```
-      System.Nullable<int> nullableInt; 
-      nullableInt = null;  
-     ```
+  ```
+   System.Nullable<int> nullableInt; 
+   nullableInt = null;  
+  ```
    * 有时候我们需要值类型为空。可以使用System.Nullable<T>类型来使值类型为空。
      * 可以是使用类型+？来替代上面的System.Nullable
+      ```int? nullableInt```
     
 
   ## 运算符
