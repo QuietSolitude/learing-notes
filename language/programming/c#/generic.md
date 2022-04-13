@@ -10,9 +10,14 @@
     class MyClass<T>{} //定义泛型类，类定义的占位符是什么，成员方法和成员变量都要和类定义的占位符一样。
     <T> add(<T> num)
   ```
- ## 可空类型（nullable type)
+ ## 可空类型（nullable type) 与运算符
   * 有时候需要值类型可以为空，特别是在数据库中。我们可以使用System.Nullable<T>类型。
+  * 注：如果可空类型和基本类型进行运算，那么可空类型需要强制转换成基本类型。
   ```
     System.Nullable<int> nullableInt = null;
   ```
   * 类型+?来代替Nullable<T> ``` int? nullableInt ```
+  * ??空接合运算符（null coalescing operator)是二元运算符，可以根据第一个值是否为空，如果为空那么就讲第二个值赋值给变量，否则就将值赋给变量，如果都为null就报错。
+  ```
+    int num = nullableInt ?? 3; // num的值为3
+  ```
