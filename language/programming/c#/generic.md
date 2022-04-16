@@ -21,3 +21,6 @@
   ```
     int num = nullableInt ?? 3; // num的值为3
   ```
+
+ ## 泛型类
+  * List<T>
