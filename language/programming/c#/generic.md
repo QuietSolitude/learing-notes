@@ -23,4 +23,7 @@
   ```
 
  ## 泛型类
-  * List<T>
+  * List<T>是一个泛型集合类并提供很多方法。
+  ```
+   List<T> myCollection = new List<T>(); //声明一个List对象。
+  ```
