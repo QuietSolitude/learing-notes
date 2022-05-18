@@ -1,2 +1,2 @@
 # network notes
- * [html/css]（\html_css\README.MD)
+ * [html/css]（https://github.com/QuietSolitude/learing-notes/tree/main/network/html_css)
