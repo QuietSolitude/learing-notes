@@ -1,4 +1,4 @@
 # Docker Notes
   * [1.安装docker](install_docker.md)
-  * [2.docker安装mysql](#hello-test)
+  * [2.docker安装mysql](install_docker.md#hello-test)
   
